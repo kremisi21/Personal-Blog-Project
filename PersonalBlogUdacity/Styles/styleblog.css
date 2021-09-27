@@ -1,0 +1,133 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --colore_primario: rgb(255, 191, 73);
+}
+
+main{
+    padding-top: 150px;
+}
+
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.menu{
+    background-color: var(--colore_primario);
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    padding: 20px;
+}
+
+li{
+    padding: 20px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a{text-decoration:none}
+
+img{
+    height: 30px;
+    width: 30px;
+}
+
+body{
+    background-color: rgb(255, 239, 151);
+}
+
+
+.monkey{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+  }
+  .tondo{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  
+  .milano{
+      position: relative;
+      padding: 100px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .bnbn{
+      position: relative;
+      width: calc(100% / 3 - 20px);
+  }
+
+  .bnbn img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+ 
+  .bnbn a{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%);
+  }
+
+
+  .myButton {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:20px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+    left: 0;
+    
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.myButton:active {
+	top: calc(50% + 10px);
+}
+
+footer{ 
+    background-color: rgb(218, 93, 47);
+    padding: 20px
+}
+
+
+
+

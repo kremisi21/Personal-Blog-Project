@@ -1,0 +1,88 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-color: coral;
+}
+
+.header{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+  ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+
+}
+
+figcaption{
+  padding: 20px;
+}
+
+
+.monkey{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+footer{ 
+    background-color: rgb(218, 93, 47);
+
+}
+
+  .myButton {
+    box-shadow:inset 0px 1px 0px 0px #fff6af;
+    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:flex;
+    cursor:pointer;
+    color:#333333;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:10px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 20px;
+      
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.myButton:active {
+	top: calc(2% + 1px);
+}
+
+
+.authorinfosection{
+  text-align: center;
+}
